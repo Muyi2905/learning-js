@@ -11,6 +11,7 @@ function BMI() {
 BMI();
 
 //LoveMatch Calculator
+//learning math for js
 
 var name1 = prompt(" enter your name")
 var name2 = prompt("enter your crush name")
@@ -25,6 +26,7 @@ else {
 }
 
 //Array
+//including objects in array
 
 let guests = ["muyi", "tobi", "espeon"]
 let name = prompt("what is your name")
@@ -34,3 +36,38 @@ if (guests.includes(name)) {
 else {
     alert("you are not invited")
 }
+
+//Fizzbuzz array challenge
+let x = [];
+function fizzBuzz() {
+    for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            x.push("Fizz");
+        }
+        else if (i % 3 !== 0 && i % 5 === 0) {
+            x.push("Buzz");
+        }
+        else if (i % 3 === 0 && i % 5 === 0)
+            x.push("FizzBuzz");
+    }
+        else {
+        x.push(i);
+
+    }
+}
+return x;
+
+
+console.log(fizzBuzz());
+
+//randomizing array
+
+function whoIsPaying(names) {
+
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var payingPerson = names[randomPersonPosition];
+    return payingPerson;
+}
+
+console.log(whoIsPaying(["muyi", "mayank", "darsh", "raj"]));
