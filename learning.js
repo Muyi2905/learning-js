@@ -1,8 +1,10 @@
 // basic-function
 function myfunction() {
-    return
-    console.log("hello world!")
+    return "hello world!"
 }
+myfunction()
+
+//
 
 
 //Bmi Calculator
