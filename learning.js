@@ -14,10 +14,6 @@ message()
 let Message = () => "hello world";
 Message()
 
-//another example
-let greeting = () => "hello"
-greeting("muyiwa")
-
 //Bmi Calculator
 //Function
 function BMI() {
