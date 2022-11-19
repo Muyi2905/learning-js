@@ -4,8 +4,19 @@ function myfunction() {
 }
 myfunction()
 
-//
+//arrow operator es6
+let message = () => {
+    return "hello world";
+}
+message()
 
+//another example
+let Message = () => "hello world";
+Message()
+
+//another example
+let greeting = () => "hello"
+greeting("muyiwa")
 
 //Bmi Calculator
 //Function
@@ -68,45 +79,45 @@ function fizzBuzz() {
         else if (i % 3 !== 0 && i % 5 === 0) {
             x.push("Buzz");
         }
-        else if (i % 3 === 0 && i % 5 === 0)
+        else if (i % 3 === 0 && i % 5 === 0) {
             x.push("FizzBuzz");
-    }
+        }
         else {
-        x.push(i);
+            x.push(i);
 
+        }
     }
-}
-return x;
+    return x;
 
 
-console.log(fizzBuzz());
+    console.log(fizzBuzz());
 
-//randomizing array
+    //randomizing array
 
-function whoIsPaying(names) {
+    function whoIsPaying(names) {
 
-    var numberOfPeople = names.length;
-    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
-    var payingPerson = names[randomPersonPosition];
-    return payingPerson;
-}
+        var numberOfPeople = names.length;
+        var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+        var payingPerson = names[randomPersonPosition];
+        return payingPerson;
+    }
 
-console.log(whoIsPaying(["muyi", "bob", "darsh", "raj"]));
+    console.log(whoIsPaying(["muyi", "bob", "darsh", "raj"]));
 
 
-//for loop 
-//return until its false
-for (let i = 1; i < 6; i++) {
-    console.log(muyiwa);
-    if (i === 4) break;
-}
+    //for loop 
+    //return until its false
+    for (let i = 1; i < 6; i++) {
+        console.log(muyiwa);
+        if (i === 4) break;
+    }
 
-//while loop
-let i = 0
-while (i < 10) {
-    console.log(i);
-    i++
-}
+    //while loop
+    let i = 0
+    while (i < 10) {
+        console.log(i);
+        i++
+    }
 
 //do loop
 //it works like the while statement but the difference is that it checks for the condition after the do statement has run
