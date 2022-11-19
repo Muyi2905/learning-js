@@ -10,6 +10,18 @@ function BMI() {
 }
 BMI();
 
+
+//Conditionals
+//if statement
+let Name = prompt("enter your name")
+if (Name === muyiwa) {
+    alert("you are right")
+}
+//else statement
+else {
+    alert("wrong")
+}
+
 //LoveMatch Calculator
 //learning math for js
 
@@ -74,6 +86,7 @@ console.log(whoIsPaying(["muyi", "bob", "darsh", "raj"]));
 
 
 //for loop 
+//return until its false
 for (let i = 1; i < 6; i++) {
     console.log(muyiwa);
     if (i === 4) break;
@@ -85,3 +98,6 @@ while (i < 10) {
     console.log(i);
     i++
 }
+
+//do loop
+//it works like the while statement but the difference is that it checks for the condition after the do statement has run
