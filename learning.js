@@ -70,4 +70,18 @@ function whoIsPaying(names) {
     return payingPerson;
 }
 
-console.log(whoIsPaying(["muyi", "mayank", "darsh", "raj"]));
+console.log(whoIsPaying(["muyi", "bob", "darsh", "raj"]));
+
+
+//for loop 
+for (let i = 1; i < 6; i++) {
+    console.log(muyiwa);
+    if (i === 4) break;
+}
+
+//while loop
+let i = 0
+while (i < 10) {
+    console.log(i);
+    i++
+}
